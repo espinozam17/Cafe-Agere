@@ -21,25 +21,28 @@
   margin-top: 1.5rem;
 }
 
-.container__1-img {
-  display: inline-block;
-  position: relative;
+.container__1-img--central {
+  width: 50%;
+  height: 83%;
+  vertical-align: middle;
 }
 
 .contaianer__2-img--mapa {
-  width: 400px;
-  height: 190px;
+  width: 40%;
+  height: 80%;
 }
 
 .contaianer__2-img--cafe {
-  width: 450px;
-  height: 240px;
+  width: 40%;
+  height: 30%;
+  object-fit: cover;
 }
 
 .contaianer__2-img--granos {
-  width: 70px;
-  height: 150px;
+  width: 10%;
+  height: 20%;
   object-fit: cover;
+  vertical-align: middle;
 }
 
 .pt-mono-regular {
@@ -145,17 +148,24 @@ p {
   color: inherit; /* Usa el color de texto heredado */
 }
 
+.container__1-img {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
 .container__1-tittle {
   display: inline-block;
   position: relative;
-  left: 8rem;
-  top: -15rem;
-  bottom: 3rem;
+  left: 57%;
+  vertical-align: top;
+  top: -95%;
 }
 
 .container__1-descripcion-tittle {
   position: absolute;
-  top: 15rem;
+  top: 12rem;
 }
 
 .contaianer__1-datos {
@@ -163,8 +173,8 @@ p {
   width: 472px;
   height: 150px;
   background-color: white;
-  left: 435px;
-  top: 395px;
+  left: 26%;
+  top: 42%;
 }
 
 .contaianer__1-datos-1 {
@@ -177,14 +187,14 @@ p {
 .contaianer__1-datos-2 {
   position: relative;
   display: inline-block;
-  left: 5rem;
+  left: 3rem;
   top: 2rem;
 }
 
 .contaianer__1-datos-3 {
   display: inline-block;
   position: relative;
-  left: 7rem;
+  left: 5rem;
   top: 2rem;
 }
 
@@ -192,37 +202,63 @@ p {
   position: relative;
   display: inline-block;
   left: 4rem;
-  top: -100px;
+  top: -180px;
+}
+
+.container__1-cuadrado-naranja {
+  width: 10%;
+  height: 30%;
+  background-color: orangered;
+  position: relative;
+  display: inline-block;
+  top: -270px;
+  left: 37%;
+}
+
+.sombra__cuadrado-naranja {
+  -webkit-box-shadow: 46px 7px 5px 5px rgb(231, 166, 26);
+  -moz-box-shadow: 46px 7px 5px 5px rgb(231, 166, 26);
+  box-shadow: 46px 7px 5px 5px rgb(231, 166, 26);
 }
 
 .contaianer__2-fondo-celeste {
   position: absolute;
-  width: 472px;
-  height: 210px;
+  width: 24%;
+  height: 25%;
   background-color: rgb(60, 165, 221);
-  left: 435px;
-  top: 543px;
+  left: 26%;
+  top: 57%;
 }
 
 .contaianer__2-img {
+  width: 55%;
+  height: 100%;
   display: inline-block;
   position: relative;
-  left: 70px;
-  top: -70px;
+  z-index: 1;
+  left: 5%;
+  top: -80px;
 }
 
 .contaianer__2-img-1 {
+  width: 55%;
+  height: 100%;
+  vertical-align: middle;
   display: inline-block;
-  position: relative;
-  left: 110px;
-  top: -48px;
+  position: absolute;
+  left: 50%;
+  top: 565px;
 }
 
 .contaianer__2-img-2 {
   display: inline-block;
-  position: relative;
-  right: 370px;
-  top: -140px;
+  width: 55%;
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  position: absolute;
+  left: 48%;
+  top: 565px;
 }
 
 .navbar__buttons {

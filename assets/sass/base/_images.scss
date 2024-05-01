@@ -10,24 +10,33 @@
 
 
 
-.container__1-img{
-    display: inline-block;
-    position: relative;
+
+
+
+.container__1-img--central{
+    width: 50%;
+    height: 83%;
+    vertical-align:middle;
 }
 
-
 .contaianer__2-img--mapa{
-    width: 400px;
-    height: 190px;
+    width: 40%;
+    height: 80%;
     
 }
 
 .contaianer__2-img--cafe{
-    width: 450px;
-    height: 240px;
+    width: 40%;
+    height: 30%;
+    object-fit: cover;
+   
+    
+   
+   
 }
 .contaianer__2-img--granos{
-    width: 70px;
-    height: 150px;
+    width: 10%;
+    height: 20%;
     object-fit: cover;
+    vertical-align:middle;
 }
