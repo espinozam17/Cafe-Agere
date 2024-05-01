@@ -1,0 +1,94 @@
+
+
+.nav-link {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3rem;
+    margin-top:1.5rem;
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit; /* Usa el color de texto heredado */
+  }
+
+
+
+.container__1-tittle{
+    display: inline-block;
+    position: relative;
+    left: 8rem;
+    top:-15rem;
+    bottom: 3rem;
+    
+}
+
+.container__1-descripcion-tittle{
+   
+    position: absolute;
+    top: 15rem;   
+}
+
+.contaianer__1-datos{
+    position: absolute; 
+    width: 472px;
+    height: 150px;
+    background-color: white;
+    left: 435px;
+    top:395px;
+}
+.contaianer__1-datos-1{
+    display: inline-block;
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+}
+
+.contaianer__1-datos-2{
+    position: relative;
+    display: inline-block;
+    left: 5rem;
+    top: 2rem;
+}
+
+.contaianer__1-datos-3{
+    display: inline-block;
+    position: relative;
+    left: 7rem;
+    top: 2rem;
+}
+
+.contaianer__2-subtitulo{
+    position: relative;
+    display: inline-block; 
+    left: 4rem;
+    top: -100px;
+}
+
+.contaianer__2-fondo-celeste{
+    position: absolute; 
+    width: 472px;
+    height: 210px;
+    background-color: rgb(60, 165, 221);
+    left: 435px;
+    top:543px;
+}
+
+.contaianer__2-img{
+    display: inline-block;
+    position: relative; 
+    left: 70px;
+    top: -70px;;
+}
+
+.contaianer__2-img-1{
+    display: inline-block;
+    position: relative; 
+    left: 110px;
+    top: -48px;;
+}
+
+.contaianer__2-img-2{
+    display: inline-block;
+    position: relative; 
+    right:  370px;
+    top: -140px;;
+    
+}

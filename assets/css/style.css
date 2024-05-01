@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container__1 {
+  height: 55vh;
+}
+
+.container__2 {
+  height: 33vh;
+}
+
+.navbar__logo-img {
+  display: inline-block;
+  height: 50%;
+  vertical-align: middle;
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+}
+
+.container__1-img {
+  display: inline-block;
+  position: relative;
+}
+
+.contaianer__2-img--mapa {
+  width: 400px;
+  height: 190px;
+}
+
+.contaianer__2-img--cafe {
+  width: 450px;
+  height: 240px;
+}
+
+.contaianer__2-img--granos {
+  width: 70px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.pt-mono-regular {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+}
+
+p {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  top: 2px;
+}
+
+.datos__titulo-50 {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  top: -10px;
+}
+
+.datos__parrafo-datos-1 {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  top: 2px;
+  text-align: justify;
+}
+
+.datos__titulo-20 {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  top: 2px;
+}
+
+.datos__parrafo-datos-2 {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  top: 2px;
+  text-align: justify;
+}
+
+.datos__titulo-1000 {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.datos__parrafo-datos-3 {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.contaianer__2-subtitulo-1 {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.contaianer__2-subtitulo-descripcion {
+  font-family: "PT Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  text-align: justify;
+  margin-top: -10px;
+}
+
+.navbar {
+  height: 12vh;
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav-link {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+  text-decoration: none; /* Quita el subrayado */
+  color: inherit; /* Usa el color de texto heredado */
+}
+
+.container__1-tittle {
+  display: inline-block;
+  position: relative;
+  left: 8rem;
+  top: -15rem;
+  bottom: 3rem;
+}
+
+.container__1-descripcion-tittle {
+  position: absolute;
+  top: 15rem;
+}
+
+.contaianer__1-datos {
+  position: absolute;
+  width: 472px;
+  height: 150px;
+  background-color: white;
+  left: 435px;
+  top: 395px;
+}
+
+.contaianer__1-datos-1 {
+  display: inline-block;
+  position: relative;
+  left: 2rem;
+  top: 2rem;
+}
+
+.contaianer__1-datos-2 {
+  position: relative;
+  display: inline-block;
+  left: 5rem;
+  top: 2rem;
+}
+
+.contaianer__1-datos-3 {
+  display: inline-block;
+  position: relative;
+  left: 7rem;
+  top: 2rem;
+}
+
+.contaianer__2-subtitulo {
+  position: relative;
+  display: inline-block;
+  left: 4rem;
+  top: -100px;
+}
+
+.contaianer__2-fondo-celeste {
+  position: absolute;
+  width: 472px;
+  height: 210px;
+  background-color: rgb(60, 165, 221);
+  left: 435px;
+  top: 543px;
+}
+
+.contaianer__2-img {
+  display: inline-block;
+  position: relative;
+  left: 70px;
+  top: -70px;
+}
+
+.contaianer__2-img-1 {
+  display: inline-block;
+  position: relative;
+  left: 110px;
+  top: -48px;
+}
+
+.contaianer__2-img-2 {
+  display: inline-block;
+  position: relative;
+  right: 370px;
+  top: -140px;
+}
+
+.navbar__buttons {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 50rem;
+  margin-top: 1.5rem;
+}
+
+.navbar__buttons-login {
+  background-color: white;
+  color: white;
+  padding-left: 2rem;
+}
+
+.navbar__buttons-register {
+  background-color: green;
+  color: white;
+  padding-left: 2rem;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 0.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */

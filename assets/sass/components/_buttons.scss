@@ -1,0 +1,32 @@
+.navbar__buttons {
+   
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50rem;
+    margin-top: 1.5rem;
+  
+    
+   
+  }
+  .navbar__buttons-login{
+    background-color: white;
+    color: white;
+    padding-left: 2rem;
+    
+   
+  }
+
+  .navbar__buttons-register{
+    background-color: green;
+    color: white;
+    padding-left: 2rem;
+   
+  }
+
+  
+  .buttons-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    gap: 0.5rem;
+  }
